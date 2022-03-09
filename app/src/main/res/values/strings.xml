@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Много разметок одной активности</string>
+    <string name="vertical">Вертикальное положение экрана</string>
+    <string name="every">Каждый</string>
+    <string name="hunter">Охотник</string>
+    <string name="want">Желает</string>
+    <string name="know">Знать</string>
+    <string name="where">Где</string>
+    <string name="sitting">Сидит</string>
+    <string name="bird">Фазан</string>
+    <string name="horizontal">Горизонтальное положение экрана</string>
+    <string name="night_mode">Ночной режим</string>
+</resources>

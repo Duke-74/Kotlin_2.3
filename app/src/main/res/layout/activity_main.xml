@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView
+                android:text="@string/vertical"
+                style="@style/textViewStyle"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/every">
+            <TextView
+                android:text="@string/every"
+                android:background="@color/every"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/hunter">
+            <TextView
+                android:text="@string/hunter"
+                android:background="@color/hunter"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/want">
+            <TextView
+                android:text="@string/want"
+                android:background="@color/want"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/know">
+            <TextView
+                android:text="@string/know"
+                android:background="@color/know"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/where">
+            <TextView
+                android:text="@string/where"
+                android:background="@color/where"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/sitting">
+            <TextView
+                android:text="@string/sitting"
+                android:background="@color/sitting"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/bird">
+            <TextView
+                android:text="@string/bird"
+                android:background="@color/bird"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
